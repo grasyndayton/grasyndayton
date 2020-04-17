@@ -1,0 +1,437 @@
+.img{
+	margin:2% 0% 2% 5%;
+	height:700px;
+	width:auto;
+	z-index:-1;
+}
+
+.dice {
+	height:10%;
+	width:10%;
+}
+
+.icon {
+	margin:35rem 0rem 0rem 13rem;
+	background:transparent;
+	position:absolute;
+}
+
+.icon2 {
+	margin:35rem 0rem 0rem 9rem;
+	background:transparent;
+	position:absolute;
+}
+
+.icon3 {
+	margin:31rem 0rem 0rem 13rem;
+	background:transparent;
+	position:absolute;
+}
+
+.icon4 {
+	margin:31rem 0rem 0rem 9rem;
+	background:transparent;
+	position:absolute;
+}
+
+
+.player2icon1 {
+	margin:31rem 0rem 0rem 34.4rem;
+	background:transparent;
+	position:absolute;
+}
+.player2icon2 {
+	margin:31rem 0rem 0rem 38.5rem;
+	background:transparent;
+	position:absolute;
+}
+.player2icon3 {
+	margin:35.4rem 0rem 0rem 38.5rem;
+	background:transparent;
+	position:absolute;
+}
+.player2icon4 {
+	margin:35.4rem 0rem 0rem 34.5rem;
+	background:transparent;
+	position:absolute;
+}
+
+
+
+.unlocked {
+margin:37rem 0rem 0rem 20.5rem;
+ background:transparent;
+position:absolute;
+}
+
+.unlockedplayer2 {
+margin:23.5rem 0rem 0rem 40.5rem;
+ background:transparent;
+position:absolute;
+}
+
+
+._1 {
+margin:34rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+._2 {
+margin:31rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+._3 {
+margin:28rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+._4 {
+margin:25rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+._5 {
+margin:22rem 0rem 0rem 17.8rem;
+background:transparent;
+position:absolute;
+}
+
+._6 {
+margin:22rem 0rem 0rem 15.1rem;
+background:transparent;
+position:absolute;
+}
+
+._7 {
+margin:22rem 0rem 0rem 12.4rem;
+background:transparent;
+position:absolute;
+}
+
+
+._8 {
+margin:22rem 0rem 0rem 9.7rem;
+background:transparent;
+position:absolute;
+}
+
+
+._9 {
+margin:22rem 0rem 0rem 7rem;
+background:transparent;
+position:absolute;
+}
+
+
+._10 {
+margin:22rem 0rem 0rem 4.3rem;
+background:transparent;
+position:absolute;
+}
+
+._11 {
+margin:20rem 0rem 0rem 3.5rem;
+background:transparent;
+position:absolute;
+}
+
+._12 {
+margin:18rem 0rem 0rem 3.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+._13 {
+margin:18rem 0rem 0rem 4rem;
+background:transparent;
+position:absolute;
+}
+
+._14 {
+margin:18rem 0rem 0rem 9rem;
+background:transparent;
+position:absolute;
+}
+
+._15 {
+margin:18rem 0rem 0rem 12rem;
+background:transparent;
+position:absolute;
+}
+
+._16 {
+margin:18rem 0rem 0rem 16rem;
+background:transparent;
+position:absolute;
+}
+
+._17 {
+margin:18rem 0rem 0rem 20rem;
+background:transparent;
+position:absolute;
+}
+
+._18 {
+margin:15rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+._19 {
+margin:12rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+._20 {
+margin:9rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+._21 {
+margin:6rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+._22 {
+margin:3rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+._23 {
+margin:0rem 0rem 0rem 20.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+._24 {
+margin:0rem 0rem 0rem 21rem;
+background:transparent;
+position:absolute;
+}
+
+
+._25 {
+margin:0rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._26 {
+margin:3rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._27 {
+margin:6rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._28 {
+margin:9rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._29 {
+margin:12rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._30 {
+margin:15rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._31 {
+margin:18rem 0rem 0rem 29rem;
+background:transparent;
+position:absolute;
+}
+
+._32 {
+margin:18rem 0rem 0rem 32rem;
+background:transparent;
+position:absolute;
+}
+
+._33 {
+margin:18rem 0rem 0rem 35rem;
+background:transparent;
+position:absolute;
+}
+
+._34 {
+margin:18rem 0rem 0rem 38rem;
+background:transparent;
+position:absolute;
+}
+
+
+._35 {
+margin:18rem 0rem 0rem 41rem;
+background:transparent;
+position:absolute;
+}
+
+._36 {
+margin:18rem 0rem 0rem 43rem;
+background:transparent;
+position:absolute;
+}
+
+._37 {
+margin:21rem 0rem 0rem 43rem;
+background:transparent;
+position:absolute;
+}
+
+._38 {
+margin:24rem 0rem 0rem 43rem;
+background:transparent;
+position:absolute;
+}
+
+._39 {
+margin:23rem 0rem 0rem 40rem;
+background:transparent;
+position:absolute;
+}
+
+._40 {
+margin:23rem 0rem 0rem 38rem;
+background:transparent;
+position:absolute;
+}
+
+._41 {
+margin:23rem 0rem 0rem 36rem;
+background:transparent;
+position:absolute;
+}
+
+._42 {
+margin:23rem 0rem 0rem 34rem;
+background:transparent;
+position:absolute;
+}
+
+._43 {
+margin:23rem 0rem 0rem 32rem;
+background:transparent;
+position:absolute;
+}
+
+._44 {
+margin:26rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+
+._45 {
+margin:29rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._46 {
+margin:32rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._47 {
+margin:35rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+
+._48 {
+margin:38rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._49 {
+margin:41rem 0rem 0rem 26rem;
+background:transparent;
+position:absolute;
+}
+
+._50 {
+margin:40rem 0rem 0rem 23.5rem;
+background:transparent;
+position:absolute;
+}
+
+._51 {
+margin:37rem 0rem 0rem 23.5rem;
+background:transparent;
+position:absolute;
+}
+
+._52 {
+margin:34rem 0rem 0rem 23.5rem;
+background:transparent;
+position:absolute;
+}
+
+._53 {
+margin:31rem 0rem 0rem 23.5rem;
+background:transparent;
+position:absolute;
+}
+
+._54 {
+margin:28rem 0rem 0rem 23.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+._55 {
+margin:25rem 0rem 0rem 23.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+._56 {
+margin:22rem 0rem 0rem 23.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+._57 {
+margin:23rem 0rem 0rem 23.5rem;
+background:transparent;
+position:absolute;
+}
+
+
+
+
+
+
+
