@@ -1,349 +1,410 @@
+#logOut{
+	float:right;
+	margin-left:15%;
+	color:blue;
+	font-weight: bolder;
+}
+
+
+.animatedice2 {
+	margin-top:10px;
+	height:60px;
+	width:60px;
+	border-radius: 100%;
+	animation:animatedice 3s infinite;
+	animation-timing-function: all;
+	background-color:white;
+}
+
+@keyframes animatedice2 {
+	0% {background-image:url('./images/black3.PNG');background-repeat:no-repeat;}
+	20% {background-image:url('./images/black4.PNG');background-repeat:no-repeat;}
+	40% {background-image:url('./images/black6.PNG');background-repeat:no-repeat;}
+	60% {background-image:url('./images/black1.PNG');background-repeat:no-repeat;}
+	80% {background-image:url('./images/black2.PNG');background-repeat:no-repeat;}
+	100% {background-image:url('./images/black5.PNG');background-repeat:no-repeat;}
+}
+
+
+
+.buttonwrapper2 {
+	height:500px;
+	width:200px;
+	max-width: 200px;
+	background-image:linear-gradient(black,purple);
+	padding:1%;
+	margin:28px 0px 0px 742px;
+	float:right;
+	border-radius:1%;
+	text-align: center;
+	color:white;
+}
+
+.player2indicator {
+background-image:linear-gradient(white,blue);
+height:60px;
+animation:glowicon 2s infinite;
+box-shadow: 0px 0px 10px blue;
+}
+
+
+.iconwrapper {
+	position:absolute;
+	margin:1px 10px 10px -28px;
+}
+
+
 
 .__1 {
-margin:23rem 0rem 0rem 38rem;
-background:transparent;
+margin:21rem 0rem 0rem 38.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
+
 .__2 {
-margin:23rem 0rem 0rem 35rem;
-background:transparent;
+margin:21rem 0rem 0rem 36rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__3 {
-margin:23rem 0rem 0rem 32rem;
-background:transparent;
+margin:21rem 0rem 0rem 33.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__4 {
-margin:23rem 0rem 0rem 29rem;
-background:transparent;
+margin:21rem 0rem 0rem 30.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__5 {
-margin:26rem 0rem 0rem 26.4rem;
-background:transparent;
-position:absolute
+margin:23.5rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
+position:absolute;
 }
 
+
 .__6 {
-margin:29rem 0rem 0rem 26.4rem;
-background:transparent;
-position:absolute
+margin:25.7rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
+position:absolute;
 }
 
 .__7 {
-margin:32rem 0rem 0rem 26.4rem;
-background:transparent;
+margin:28.4rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__8 {
-margin:35rem 0rem 0rem 26.4rem;
-background:transparent;
+margin:30.7rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__9 {
-margin:38rem 0rem 0rem 26.4rem;
-background:transparent;
+margin:33.2rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__10 {
-margin:40rem 0rem 0rem 26.4rem;
-background:transparent;
+margin:35.5rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__11 {
-margin:40rem 0rem 0rem 23.5rem;
-background:transparent;
+margin:35.5rem 0rem 0rem 25.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__12 {
-margin:40rem 0rem 0rem 20.8rem;
-background:transparent;
+margin:35.5rem 0rem 0rem 23rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__13 {
-margin:37rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:33rem 0rem 0rem 22.7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__14 {
-margin:34rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:30.5rem 0rem 0rem 22.7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__15 {
-margin:31rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:28rem 0rem 0rem 22.7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__16 {
-margin:28rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:25.5rem 0rem 0rem 22.7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__17 {
-margin:25rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:23rem 0rem 0rem 22.7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__18 {
-margin:23rem 0rem 0rem 17.8rem;
-background:transparent;
+margin:21rem 0rem 0rem 20rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__19 {
-margin:23rem 0rem 0rem 15.1rem;
-background:transparent;
+margin:21rem 0rem 0rem 17.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__20 {
-margin:23rem 0rem 0rem 12.4rem;
-background:transparent;
+margin:21rem 0rem 0rem 15rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__21 {
-margin:23rem 0rem 0rem 9.7rem;
-background:transparent;
+margin:21rem 0rem 0rem 12rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__22 {
-margin:23rem 0rem 0rem 6.6rem;
-background:transparent;
+margin:21rem 0rem 0rem 9.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__23 {
-margin:23rem 0rem 0rem 4.3rem;
-background:transparent;
+margin:21rem 0rem 0rem 7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__24 {
-margin:20rem 0rem 0rem 3.5rem;
-background:transparent;
+margin:18.5rem 0rem 0rem 7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__25 {
-margin:18rem 0rem 0rem 3.5rem;
-background:transparent;
+margin:16rem 0rem 0rem 7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__26 {
-margin:18rem 0rem 0rem 4rem;
-background:transparent;
+margin:16rem 0rem 0rem 9.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__27 {
-margin:18rem 0rem 0rem 9rem;
-background:transparent;
+margin:16rem 0rem 0rem 12.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__28 {
-margin:18rem 0rem 0rem 12rem;
-background:transparent;
+margin:16rem 0rem 0rem 15rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__29 {
-margin:18rem 0rem 0rem 16rem;
-background:transparent;
+margin:16rem 0rem 0rem 17.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__30 {
-margin:18rem 0rem 0rem 20rem;
-background:transparent;
+margin:16rem 0rem 0rem 20rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__31 {
-margin:15rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:13.5rem 0rem 0rem 23rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__32 {
-margin:12rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:11rem 0rem 0rem 23rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__33 {
-margin:9rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:8.9rem 0rem 0rem 22.7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__34 {
-margin:6rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:6.5rem 0rem 0rem 22.7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__35 {
-margin:3rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:4rem 0rem 0rem 22.7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__36 {
-margin:0rem 0rem 0rem 20.5rem;
-background:transparent;
+margin:1.5rem 0rem 0rem 22.7rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__37 {
-margin:0rem 0rem 0rem 21rem;
-background:transparent;
+margin:1.5rem 0rem 0rem 25.4rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__38 {
-margin:0rem 0rem 0rem 26rem;
-background:transparent;
+margin:1.5rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__39 {
-margin:3rem 0rem 0rem 26rem;
-background:transparent;
+margin:4rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__40 {
-margin:6rem 0rem 0rem 26rem;
-background:transparent;
+margin:6.5rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__41 {
-margin:9rem 0rem 0rem 26rem;
-background:transparent;
+margin:9rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__42 {
-margin:12rem 0rem 0rem 26rem;
-background:transparent;
+margin:11.3rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__43 {
-margin:15rem 0rem 0rem 26rem;
-background:transparent;
+margin:13.5rem 0rem 0rem 28rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__44 {
-margin:18rem 0rem 0rem 29rem;
-background:transparent;
+margin:16rem 0rem 0rem 30.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__45 {
-margin:18rem 0rem 0rem 32rem;
-background:transparent;
+margin:16rem 0rem 0rem 33.4rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__46 {
-margin:18rem 0rem 0rem 35rem;
-background:transparent;
+margin:16rem 0rem 0rem 36rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__47 {
-margin:18rem 0rem 0rem 38rem;
-background:transparent;
+margin:16rem 0rem 0rem 38.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 
 .__48 {
-margin:18rem 0rem 0rem 41rem;
-background:transparent;
+margin:16rem 0rem 0rem 41.2rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__49 {
-margin:18rem 0rem 0rem 43rem;
-background:transparent;
+margin:16rem 0rem 0rem 43.8rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__50 {
-margin:20.5rem 0rem 0rem 43.3rem;
-background:transparent;
+margin:18.5rem 0rem 0rem 43.8rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__51 {
-margin:20.5rem 0rem 0rem 40.5rem;
-background:transparent;
+margin:18.5rem 0rem 0rem 41rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__52 {
-margin:20.5rem 0rem 0rem 37.5rem;
-background:transparent;
+margin:18.5rem 0rem 0rem 38.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
 .__53 {
-margin:20.5rem 0rem 0rem 35rem;
-background:transparent;
+margin:18.5rem 0rem 0rem 36rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
-
 
 .__54 {
-margin:20.5rem 0rem 0rem 32rem;
-background:transparent;
+margin:18.5rem 0rem 0rem 33.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
+
 
 .__55 {
-margin:20.5rem 0rem 0rem 29.2rem;
-background:transparent;
+margin:18.5rem 0rem 0rem 30.5rem;
+animation:glowicon 1s infinite;
 position:absolute;
 }
 
+
 .__56 {
-margin:20.5rem 0rem 0rem 26rem;
-background:transparent;
+margin:18.5rem 0rem 0rem 28rem;
 position:absolute;
 }
+
+
+

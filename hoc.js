@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import coverimage from './images/image1.jpg';
 import ludoboard from './images/LUDO.png';
-import one from './images/1.jpg';
-import two from './images/2.jpg';
-import three from './images/3.png';
-import four from './images/4.jpg';
-import five from './images/5.jpg';
-import six from './images/6.jpg';
+import one from './images/black1.PNG'
+import two from './images/black2.PNG'
+import three from './images/black3.PNG'
+import four from './images/black4.PNG'
+import five from './images/black5.PNG'
+import six from './images/black6.PNG'
 import icon from './images/icon.png';
 
 
@@ -16,6 +16,13 @@ var randomeNumber;
 
 const Updatedcomponent = (WrapedComp, player) => {
 class Updatedcomponent extends Component {
+
+
+diceanimater = () => {
+	document.querySelector("#dice").removeAttribute("src")
+	document.querySelector("#dice").className = "animatedice"
+}
+
 
 clickDice = () => {
 if(player === "player1"){
@@ -36,7 +43,8 @@ var dice;
 	}else if(randomeNumber === 6){
 		dice = six
 	}
-document.querySelector(".dice").src = dice
+document.querySelector("#dice").removeAttribute("className")
+document.querySelector("#dice").src = dice
 
 } else if (player === "player2"){
 	user = "player2"
@@ -55,7 +63,8 @@ document.querySelector(".dice").src = dice
 	}else if(randomeNumber === 6){
 		dice = six
 	}
-document.querySelector(".dice").src = dice
+document.querySelector("#dice").removeAttribute("className")
+document.querySelector("#dice").src = dice
 
 }
 
@@ -98,8 +107,11 @@ break;
 			var split = x.split("_") 
 			 var previousClass = Math.floor(split[1])
 			 var addPreviousClass = previousClass + randomeNumber 
-		     var concat = underScore.concat(addPreviousClass) 
-
+			 if(Math.floor(addPreviousClass) > 56){ 
+			 	var concat = x
+			 } else {
+			 	var concat = underScore.concat(addPreviousClass)
+			 } 
 		}
 var iconPreviousclass = document.getElementById(e.target.id).className = concat
 localStorage.setItem("iconPreviousclass", iconPreviousclass)
@@ -116,7 +128,11 @@ break;
 			var split = x.split("_") 
 			 var previousClass = Math.floor(split[1])
 			 var addPreviousClass = previousClass + randomeNumber 
-		     var concat = underScore.concat(addPreviousClass) 
+		    if(Math.floor(addPreviousClass) > 56){ 
+			 	var concat = x
+			 } else {
+			 	var concat = underScore.concat(addPreviousClass)
+			 } 
 
 		}
 
@@ -134,7 +150,11 @@ break;
 			var split = x.split("_") 
 			 var previousClass = Math.floor(split[1])
 			 var addPreviousClass = previousClass + randomeNumber 
-		     var concat = underScore.concat(addPreviousClass) 
+		  	if(Math.floor(addPreviousClass) > 56){ 
+			 	var concat = x
+			 } else {
+			 	var concat = underScore.concat(addPreviousClass)
+			 } 
 
 		}
 
@@ -153,16 +173,17 @@ break;
 			var split = x.split("_") 
 			 var previousClass = Math.floor(split[1])
 			 var addPreviousClass = previousClass + randomeNumber 
-		     var concat = underScore.concat(addPreviousClass) 
-
+			 if(Math.floor(addPreviousClass) > 56){ 
+			 	var concat = x
+			 } else {
+			 	var concat = underScore.concat(addPreviousClass)
+			 } 
 		}
 
 var icon4Previousclass = document.getElementById(e.target.id).className = concat
-alert(icon4Previousclass + " is New Updated Class")
 
 localStorage.setItem("icon4Previousclass", icon4Previousclass)
 localStorage.setItem("updatedClass", icon4Previousclass)
-alert(localStorage.getItem("icon4Previousclass") + "is saved in local storage")
 break;
 	/// switch block of setting new class is ending here
 }
@@ -207,39 +228,30 @@ randomeNumber = ''
 
 player2iconHandler = (e) => {
 if(user === "player2"){
-	alert("player2 icon handler function is executed")
 if(document.getElementById(e.target.id).className !== "unlockedplayer2" && localStorage.getItem(e.target.id) === null){
-	alert("unlock function executing")
-alert(e.target.id + "is the id and class is "+document.getElementById(e.target.id).className + "and updated class is "+localStorage.getItem("Player2updatedClass"))
 
 if(randomeNumber === 1 || randomeNumber === 6){
 switch(e.target.id){
 case "player2icon1":
 document.getElementById(e.target.id).className = "unlockedplayer2"
 return randomeNumber = ''
-return alert("player2icon1")
 break;
 case "player2icon2":
 document.getElementById(e.target.id).className = "unlockedplayer2"
 return randomeNumber = ''
-return alert("player2icon2")
 break;
 case "player2icon3":
 document.getElementById(e.target.id).className = "unlockedplayer2"
 return randomeNumber = ''
-return alert("player2icon3")
 break;
 case "player2icon4":
 document.getElementById(e.target.id).className = "unlockedplayer2"
 return randomeNumber = ''
-return alert("player2icon4")
 break;
 }}} else {
-	alert(randomeNumber + "is the randomenumber before entring in the setclass function")
-	alert("unlock function is not triggered thats why this text showed")
+	
 	if(randomeNumber){
-		alert("entered in newClass set function")
-		alert("random number is "+ randomeNumber)
+		
 
 		var underScore = "__"
 
@@ -249,78 +261,79 @@ break;
 		    var previousClass = ''
 		    var addPreviousClass = previousClass + randomeNumber
 		    var concat = underScore.concat(addPreviousClass)
-		    alert("Previous class was null so we set " + previousClass + " as previousClass")
+		   
 
 		} else if (localStorage.getItem("player2icon1")){
-			alert("Previous class is " + localStorage.getItem("player2icon1"))
+			
 			var x = localStorage.getItem("player2icon1")
 			var split = x.split(underScore) 
-			alert(split[1] + "this is split function")
+			
 			 var previousClass = Math.floor(split[1])
-			 alert(previousClass + "this is converting split number into math.floor")
+			
 			 var addPreviousClass = previousClass + randomeNumber 
-			 alert(addPreviousClass + " this is addition of random and previousClass")
-		     var concat = underScore.concat(addPreviousClass) 
-		     alert(concat + "this is concat string varialble in updating class function")
-
+			 if(Math.floor(addPreviousClass) > 56){ 
+			 	var concat = x
+			 } else {
+			 	var concat = underScore.concat(addPreviousClass)
+			 } 
 		}
-alert(concat + "this is concat string varialble outside updating class function")
 
 var player2icon1 = document.getElementById(e.target.id).className = concat
-alert(player2icon1 + " is New Updated Class")
+
 
 localStorage.setItem("player2icon1", player2icon1)
 localStorage.setItem("Player2updatedClass", player2icon1)
-alert(localStorage.getItem("player2icon1") + "is saved in loca storage")
+
 break;
             case "player2icon2":
 			if(localStorage.getItem("player2icon2") === null){
 		    var previousClass = ''
 		    var addPreviousClass = previousClass + randomeNumber
 		    var concat = underScore.concat(addPreviousClass)
-		    alert("Previous class was null so we set " + previousClass + " as previousClass")
+		   
 
 		} else if (localStorage.getItem("player2icon2")){
-			alert("Previous class is " + localStorage.getItem("player2icon2"))
+		
 			var x = localStorage.getItem("player2icon2")
 			var split = x.split(underScore) 
-			alert(split[1] + "this is split function")
+			
 			 var previousClass = Math.floor(split[1])
-			 alert(previousClass + "this is converting split number into math.floor")
+			
 			 var addPreviousClass = previousClass + randomeNumber 
-			 alert(addPreviousClass + " this is addition of random and previousClass")
-		     var concat = underScore.concat(addPreviousClass) 
-		     alert(concat + "this is concat string varialble in updating class function")
 
+			 if(Math.floor(addPreviousClass) > 56){ 
+			 	var concat = x
+			 } else {
+			 	var concat = underScore.concat(addPreviousClass)
+			 } 
 		}
-alert(concat + "this is concat string varialble outside updating class function")
 
 var player2icon2 = document.getElementById(e.target.id).className = concat
-alert(player2icon2 + " is New Updated Class")
 
 localStorage.setItem("player2icon2", player2icon2)
 localStorage.setItem("Player2updatedClass", player2icon2)
-alert(localStorage.getItem("player2icon2") + "is saved in local storage")
+
 break;
             case "player2icon3":
 			if(localStorage.getItem("player2icon3") === null){
 		    var previousClass = ''
 		    var addPreviousClass = previousClass + randomeNumber
 		    var concat = underScore.concat(addPreviousClass)
-		    alert("Previous class was null so we set " + previousClass + " as previousClass")
-
+		    
 		} else if (localStorage.getItem("player2icon3")){
-			alert("Previous class is " + localStorage.getItem("player2icon3"))
+			
 			var x = localStorage.getItem("player2icon3")
 			var split = x.split(underScore) 
-			alert(split[1] + "this is split function")
+			
 			 var previousClass = Math.floor(split[1])
-			 alert(previousClass + "this is converting split number into math.floor")
+			
 			 var addPreviousClass = previousClass + randomeNumber 
-			 alert(addPreviousClass + " this is addition of random and previousClass")
-		     var concat = underScore.concat(addPreviousClass) 
-		     alert(concat + "this is concat string varialble in updating class function")
-
+			 if(Math.floor(addPreviousClass) > 56){ 
+			 	var concat = x
+			 } else {
+			 	var concat = underScore.concat(addPreviousClass)
+			 } 
+		   
 		}
 
 var player2icon3 = document.getElementById(e.target.id).className = concat
@@ -335,18 +348,19 @@ break;
 		    var concat = underScore.concat(addPreviousClass)
 
 		} else if (localStorage.getItem("player2icon4")){
-			alert("Previous class is " + localStorage.getItem("player2icon4"))
+		
 			var x = localStorage.getItem("player2icon4")
 			var split = x.split(underScore) 
 			 var previousClass = Math.floor(split[1])
 			 var addPreviousClass = previousClass + randomeNumber 
+			 if(Math.floor(addPreviousClass) > 56){ 
+			 	var concat = x
+			 } else {
 		     var concat = underScore.concat(addPreviousClass) 
 
-		}
-alert(concat + "this is concat string varialble outside updating class function")
+		}}
 
 var player2icon4 = document.getElementById(e.target.id).className = concat
-alert(player2icon4 + " is New Updated Class")
 
 localStorage.setItem("player2icon4", player2icon4)
 localStorage.setItem("Player2updatedClass", player2icon4)
@@ -390,7 +404,7 @@ randomeNumber = ''
 
 render(){
 
-	return <WrapedComp Dicehandler={this.clickDice} Iconhandler={this.iconHandler} Player2iconhandler={this.player2iconHandler} />
+	return <WrapedComp Dicehandler={this.clickDice} Iconhandler={this.iconHandler} Player2iconhandler={this.player2iconHandler} user1={this.props.user1} user2={this.props.user2} animatedice={this.diceanimater} />
 }
 
 	}
